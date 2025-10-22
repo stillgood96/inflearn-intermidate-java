@@ -17,4 +17,11 @@ public class StarcraftUnit {
     return hp;
   }
 
+  @Override
+  public String toString() {
+    return "StarcraftUnit{" +
+        "name='" + name + '\'' +
+        ", hp=" + hp +
+        '}';
+  }
 }
